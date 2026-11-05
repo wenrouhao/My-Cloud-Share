@@ -38,13 +38,45 @@ https://raw.githubusercontent.com/wenrouhao/My-Cloud-Share/main/Documents/文件
 
 ---
 
+## ⚡ CDN 加速链接
+
+GitHub Raw 链接在国内访问速度不稳定，建议使用 CDN 加速。
+
+### 方案 1：jsDelivr（推荐 · 全球 CDN）
+
+最常用的 GitHub CDN，国内有加速节点，稳定可靠。
+
+```
+https://cdn.jsdelivr.net/gh/wenrouhao/My-Cloud-Share@main/Documents/文件名.pdf
+```
+
+> 格式：`https://cdn.jsdelivr.net/gh/用户名/仓库名@分支/文件路径`
+
+### 方案 2：Statically
+
+```
+https://cdn.statically.io/gh/wenrouhao/My-Cloud-Share/main/Documents/文件名.pdf
+```
+
+> 格式：`https://cdn.statically.io/gh/用户名/仓库名/分支/文件路径`
+
+### 方案 3：ghproxy（国内专用加速）
+
+```
+https://ghproxy.net/https://raw.githubusercontent.com/wenrouhao/My-Cloud-Share/main/Documents/文件名.pdf
+```
+
+> 格式：`https://ghproxy.net/https://raw.githubusercontent.com/用户名/仓库名/分支/文件路径`
+
+---
+
 ## 📋 文件索引
 
 > 上传新文件后，在此登记以便检索。
 
-| 序号 | 文件名 | 分类 | 上传日期 | 说明 | 下载链接 |
+| 序号 | 文件名 | 分类 | 上传日期 | 说明 | 下载链接（jsDelivr 加速） |
 | ---- | ------ | ---- | -------- | ---- | -------- |
-| 1 | 示例文件.pdf | Documents | 2026-01-01 | 示例说明 | [下载](https://raw.githubusercontent.com/wenrouhao/My-Cloud-Share/main/Documents/示例文件.pdf) |
+| 1 | 示例文件.pdf | Documents | 2026-01-01 | 示例说明 | [下载](https://cdn.jsdelivr.net/gh/wenrouhao/My-Cloud-Share@main/Documents/示例文件.pdf) |
 | 2 | | | | | |
 | 3 | | | | | |
 
